@@ -1,0 +1,168 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f0e8; /* Light beige background */
+    color: #333; /* Dark grey text */
+}
+
+header {
+    background-color: #5c3d2e; /* Dark brown header */
+    color: #f4f0e8;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+header .tagline {
+    font-style: italic;
+    color: #d4a373; /* Light brown accent */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f4f0e8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #d4a373;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro-section,
+.interest-section,
+.contact-section {
+    background-color: #e0cba8; /* Medium beige section background */
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content-wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.interest-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.interest-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.interest-details div h4 {
+    margin-top: 0;
+    color: #5c3d2e; /* Dark brown heading */
+}
+
+.sports-bg {
+    background-color: #a3b18a; /* Light green for sports */
+    color: #333;
+}
+
+.gaming-bg {
+    background-color: #6a994e; /* Medium green for gaming */
+    color: #f4f0e8;
+}
+
+.gaming-bg h3, .gaming-bg h4, .gaming-bg p {
+    color: #f4f0e8;
+}
+
+.writing-bg {
+    background-color: #a7c957; /* Light green for writing */
+    color: #333;
+}
+
+.music-bg {
+    background-color: #bc6c25; /* Brownish-orange for music */
+    color: #f4f0e8;
+}
+
+.music-bg h3, .music-bg h4, .music-bg p {
+    color: #f4f0e8;
+}
+
+.outdoors-bg {
+    background-color: #386641; /* Dark green for outdoors */
+    color: #f4f0e8;
+}
+
+.outdoors-bg h3, .outdoors-bg h4, .outdoors-bg p {
+    color: #f4f0e8;
+}
+
+.learning-bg {
+    background-color: #6a994e; /* Medium green for learning */
+    color: #f4f0e8;
+}
+
+.learning-bg h3, .learning-bg h4, .learning-bg p {
+    color: #f4f0e8;
+}
+
+.contact-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-section ul li {
+    margin-bottom: 10px;
+}
+
+.contact-section ul li a {
+    color: #5c3d2e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-section ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #5c3d2e; /* Dark brown footer */
+    color: #f4f0e8;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
